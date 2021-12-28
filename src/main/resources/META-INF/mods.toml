@@ -1,25 +1,28 @@
 # The name of the mod loader type to load
 modLoader="javafml"
 # A version range to match for said mod loader
-loaderVersion="[2.0,)"
+loaderVersion="[36.0,)"
 # A URL to refer people to when problems occur with this mod
 issueTrackerURL="https://github.com/skyjay1/Nomadic-Tents/issues"
+# The license for your mod. This is mandatory and allows for easier comprehension of your redistributive properties.
+# Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
+license="All Rights Reserved"
 
 [[mods]]
     modId="nomadictents"
-    version="11.0.0-beta"
+    version="12.0.0-beta"
     displayName="Nomadic Tents"
     # multi line!
     description='''Adds portable houses to Minecraft!'''
     [[dependencies.nomadictents]]
         modId="forge"
         mandatory=true
-        versionRange="[31,)"
+        versionRange="[36,)"
         ordering="NONE"
         side="BOTH"
     [[dependencies.nomadictents]]
         modId="minecraft"
         mandatory=true
-        versionRange="[1.15.1,]"
+        versionRange="[1.16.5,]"
         ordering="NONE"
         side="BOTH"
